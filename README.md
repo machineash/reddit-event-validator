@@ -14,10 +14,12 @@ This tool catches those problems up front.
 - **PII hashing** — flags raw (unhashed) emails, which shouldn't leave a partner's servers.
 - **Required fields** — ensures the event name and conversion ID are present.
 
-It collects *all* problems in one pass, so a partner sees everything to fix at once.
+It collects *all* problems in one pass, so a partner sees everything to fix at once."
 
 ## Usage
+```
 python validator.py
+```
 
 ## Example
 ```python
